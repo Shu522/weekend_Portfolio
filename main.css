@@ -1,0 +1,174 @@
+.innerBox {
+  height: 100vh;
+  background-image: url(./images/basketball-108622_1280.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.innerBox > .inner {
+  position: absolute;
+  top: 33%;
+}
+
+.inner {
+  padding: 0 300px;
+  height: 300px;
+  position: relative;
+}
+
+.innerTitle {
+  font-size: 120px;
+  color: white;
+}
+
+.innerText {
+  color: var(--color--text);
+  margin-top: 20px;
+}
+
+.inner > a {
+  position: absolute;
+  bottom: 40px;
+}
+
+.link {
+  border: 1px solid var(--color--link);
+  padding: 10px 150px;
+  font-size: var();
+  font-weight: lighter;
+  color: var(--color--link);
+  text-decoration: none;
+}
+
+.link:hover {
+  border: 1px solid #dbdbdb;
+  background-color: #dbdbdb;
+  color: var(--color--text);
+  transition: all 0.5s;
+}
+
+.iamBox {
+  height: 500px;
+  background: rgb(18, 18, 18);
+  background: linear-gradient(
+    180deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(26, 26, 46, 1) 30%,
+    rgba(44, 44, 44, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iam {
+  color: #dbdbdb;
+  height: 300px;
+  width: 500px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.iamTitle {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: rgba(192, 192, 192, 0.1);
+  text-shadow: 2px 2px 4px rgba(182, 180, 180, 0.5);
+  padding: 5px 200px;
+}
+
+.aboutBox {
+  align-self: flex-start;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  font-size: var(--font-size-large);
+}
+
+li {
+  margin-bottom: 20px;
+}
+span {
+  margin-left: 20px;
+}
+
+.insta a {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-size: var(--font-size-large);
+}
+
+.instabtn {
+  background-color: #8f82f4;
+  border-radius: 10px;
+}
+
+.hobbyBox {
+  height: 100vh;
+  background: rgb(44, 44, 44);
+  background: linear-gradient(
+    180deg,
+    rgba(44, 44, 44, 1) 0%,
+    rgba(109, 109, 133, 1) 30%,
+    rgba(44, 62, 80, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstCard,
+.secondCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.secondCard {
+  margin-top: 50px;
+}
+
+.hobbyCard {
+  background-color: #dbdbdb;
+  width: 230px;
+  height: 300px;
+  margin: 50px;
+  box-shadow: rgb(11, 19, 27) 0px 20px 30px -10px;
+}
+
+.images {
+  width: 230px;
+  height: 200px;
+}
+
+.hobbyTitle {
+  text-align: center;
+  font-size: var(--font-size-large);
+  margin-bottom: 10px;
+}
+
+.hobbyCard > p {
+  margin-left: 20px;
+  text-align: left;
+  color: #343141;
+}
+
+.betTitle {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
